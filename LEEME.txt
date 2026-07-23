@@ -1,0 +1,16 @@
+TAPITI REV 5.0 - PAQUETE PWA
+
+Contenido:
+- index.html: programa principal
+- manifest.webmanifest: instalacion como app
+- service-worker.js: funcionamiento sin conexion
+- iconos: acceso directo en el telefono
+
+IMPORTANTE:
+Para que el GPS funcione y Chrome permita instalar TAPITI como aplicacion, estos archivos deben publicarse en una direccion HTTPS. No deben abrirse directamente desde Descargas.
+
+La forma gratuita mas sencilla es GitHub Pages. Una vez publicado:
+1. Abrir el enlace HTTPS en Chrome.
+2. Pulsar INICIAR GPS y aceptar Ubicacion precisa.
+3. Menu de Chrome > Instalar aplicacion o Agregar a pantalla principal.
+4. Abrir TAPITI desde su icono.
